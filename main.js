@@ -58,12 +58,12 @@ chrome.contextMenus.removeAll(function () {
     title: "Search '%s'",
     contexts: ["selection"]
   });
-  chrome.contextMenus.create({
-    id: "youtube-embed",
-    title: "Gameplay (Youtube embedded)",
-    contexts: ["selection"],
-    parentId: "group"
-  });
+  // chrome.contextMenus.create({
+  //   id: "youtube-embed",
+  //   title: "Gameplay (Youtube embedded)",
+  //   contexts: ["selection"],
+  //   parentId: "group"
+  // });
   chrome.contextMenus.create({
     id: "youtube",
     title: "Gameplay (Youtube)",
